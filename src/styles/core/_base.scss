@@ -1,0 +1,72 @@
+// SMACSS Base Rules
+// ----------------------------
+// Base styles include setting heading sizes, default link styles, default
+// font styles, and body backgrounds.
+// There should be no need to use !important in a Base style.
+// ==========================================================================
+
+// Set box-sizing globally to handle padding and border widths
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    height: 100%;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  html,
+  body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body,
+  div,
+  a,
+  p,
+  th,
+  td,
+  ul,
+  li,
+  blockquote,
+  figcaption,
+  cite,
+  i,
+  em,
+  b,
+  strong,
+  button,
+  input,
+  select {
+    font-family: var(--font-family-sans);
+  }
+  
+  // Default body styles
+  body {
+    position: relative;
+    height: 100%;
+    margin: 0 auto;  
+    @media screen and (min-width: $breakpoint-lg) {
+      letter-spacing: 0.06em;
+      height: auto;
+    }
+  }
+  
+  
+  
+  figure {
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+  }
+  

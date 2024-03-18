@@ -1,0 +1,11 @@
+@import 'styles/utils/shared';
+.prova{
+    background:var(--color-congo-pink);
+    // example to use media query
+    height: 20rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    @media screen and (min-width:$breakpoint-md) {
+        background-color: var(--color-turkish-red);;
+    }
+}

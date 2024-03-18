@@ -1,4 +1,24 @@
 
 :root{
-    --color-03:#fe7c7c;
+    // Color
+    // ------------------
+    --color-congo-pink:#fe7c7c;
+    --color-turkish-red:#C8102E;
+
+    // Spacing
+    // ------------------
+    --space-unit: 0.8rem;
+    --space-size-0-5: calc(0.5 * var(--space-unit)); // 4px
+    --space-size-1: calc(1 * var(--space-unit)); // 8px
+    --space-size-1-5: calc(1.5 * var(--space-unit)); // 12px
+    --space-size-2: calc(2 * var(--space-unit)); // 16px
+    --space-size-3: calc(3 * var(--space-unit)); // 24px
+    --space-size-4: calc(4 * var(--space-unit)); // 32px
+    --space-size-5: calc(5 * var(--space-unit)); // 40px
+    --space-size-6: calc(6 * var(--space-unit)); // 48px
+    --space-size-7: calc(7 * var(--space-unit)); // 56px
+    --space-size-8: calc(8 * var(--space-unit)); //64px
+    --space-size-9: calc(9 * var(--space-unit)); //72px
+    --space-size-10: calc(10 * var(--space-unit)); // 80px
+    --space-size-12: calc(12 * var(--space-unit)); // 96px
 }

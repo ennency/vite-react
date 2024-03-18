@@ -3,14 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './styles/app.scss';
 import './App.css'
-
-import styles from './components/styles.module.scss';
+import { Todo } from './components/Todo/Todo';
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className={styles.prova}>
+      <Todo/>
+      <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
