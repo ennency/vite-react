@@ -1,6 +1,9 @@
 import styles from './Todo.module.scss';
-export const Todo = () => {
+export type TodoProps = {
+    text:string;
+}
+export const Todo = ({text}:TodoProps) => {
   return (
-    <div  className={styles.prova}>Todo</div>
+    <div  className={styles.prova}>{text}</div>
   )
 }
